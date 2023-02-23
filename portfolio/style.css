@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap');
+body{
+	background-color:#110c0a;
+	color:white;
+	font-family: fantasy;
+	margin: 0;
+	background-repeat: round; 
+}
+
+
+header {
+		background-color:#110c0a;
+    text-align: center;;
+    display: block;
+		padding-bottom:0%;
+		padding-top: 0%;
+		max-height: 200px
+	}
+
+
+
+
+
+nav {
+	background-color:vdg;
+	color: white;
+	border-top: 2px white;
+	border-bottom: 2px white;
+	text-align: center;
+	padding-bottom: 1.6%;
+	padding-top: 1.6%;
+	font-weight: bold;
+	font-size: large;
+
+	
+
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	color: yellowgreen;
+	
+
+
+}
+
+
+nav li{
+	display: inline;
+	font-style: italic;
+  font-weight: bold;
+
+  
+
+}
+nav a{
+text-decoration: none;
+padding-right: 10px;
+font-weight: bold;
+}
+nav a:link{
+     color:darkorange;
+     font-weight: bold;
+}
+nav a:visited{
+	color: darkorange;
+	font-weight: bold;
+	border-top: 2px;
+}
+nav a:hover{
+	color: darkorange;
+}
+nav a:active	{
+
+			color: yellew;
+}
+a:link{
+
+color: darkorange;
+}
+
+a:visited{
+color: #f1933d;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:active{
+color: lightgray;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	min-height: 500px;
+	font-family: playfair display serif;
+	font-style: inherit;
+	font-weight: bold;
+}
+
+footer{
+	text-align: center;
+	border-top: 2px white;	
+	padding: 4%;
+	background-color:#110c0a;
+	color: orangered;
+	margin: left;
+}	
+
+
+h1 {
+	text-align: center;
+	color: white;
+
+}
+h2{
+	color: orangered;
+	text-align: left;
+	font-weight: bold;
+
+}
+table{
+border-collapse: collapse;
+border: 4px white;
+float: center;
+width: 400;
+padding-right: 8em;
+}
+td, th {
+	border-color: yellowgreen;
+  border-top: 4px yellew;
+  border-bottom: 4px yellow;	
+  padding: 6px;
+  width: 600px;
+
+}
+
+
+th {
+	background-color: black;
+	color: white;
+}
+form {
+	border:4px white;
+	max-width: 350px;
+	padding: 20px;
+}
+input {
+	margin-bottom: 1em;
+	display: block;
+}
+textarea {
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit] {
+	display: block;
+	background-color:white;
+}
+
+i.fa{
+	font-size: 2em;
+	color: brown;
+
+}
+i.fa-instagram-square{
+	color: #744dc0;
+}
+
+i.fa-twitter-square{
+	color: blue;
+
+}
+i.fa-Linkedin{
+	color: lightblue;
+}
+i.fa-Gmail{
+	color: red;
+}
+
+.home-photo {
+	float:left;
+	max-width: 200%;
+	margin-right: 80px;
+	background-color:darkcyan;
+	
+	border-image: initial;
+}
+.logo{
+margin: 0 auto;
+display:block;
+size: inherit;
+background-color:arkslategrey;
+padding-bottom: 15%;
+
+}
+
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size:2em;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
